@@ -1,0 +1,92 @@
+$primary-color: #de8971;
+$text-color: #ffffff;
+$background-color: #7b6079;
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html body {
+  font-family: sans-serif;
+  background-color: honeydew;
+}
+.navbar {
+  background-color: $primary-color;
+  color: $text-color;
+  padding: 1.5rem;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+ul {
+  li {
+    list-style: none;
+  }
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+button {
+  padding: 8px;
+  border-radius: 2px;
+  background-color: $background-color;
+  color: $text-color;
+  font-weight: bold;
+  border: none;
+  margin: 16px;
+}
+button:hover {
+  background-color: $primary-color;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.main {
+  margin: 0% 5% auto 5%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.Card {
+  width: 300px;
+  margin: 10px;
+  overflow-wrap: break-word;
+  box-shadow: 1px 4px 5px rgba(128, 128, 128, 0.562);
+  .card-body {
+    margin: 10px;
+  }
+  div {
+    img {
+      max-height: 250px;
+    }
+    .btn {
+      text-align: center;
+      button {
+        background-color: $primary-color;
+      }
+      button:hover {
+        background-color: $background-color;
+      }
+    }
+  }
+}
+
+.footer {
+  color: rgba(0, 0, 0, 0.459);
+  font-size: 0.9rem;
+  float: right;
+  margin: 5%;
+}
+
+@media (max-width: 600px) {
+  button {
+    padding: 6px;
+    border-radius: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
