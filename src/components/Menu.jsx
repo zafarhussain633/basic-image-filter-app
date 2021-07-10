@@ -58,7 +58,7 @@ const Menu = [
         id:10,
         category: "snacks" ,
         text: "this si specja jfdjfo sof sdjfo sfj sdop jfopsjfop jsdog jsjo opfjgopjfgdfjkgnklsjkopsjopjsogj opj op"
-    } ,
+    } 
 ]
 
 export default Menu;
